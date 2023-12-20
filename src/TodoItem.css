@@ -1,0 +1,22 @@
+
+
+.todoItem{
+    display:flex;
+    gap: 20px;
+    justify-content: space-between
+}
+.todoLabel{
+    margin-right: auto;
+
+}
+
+
+
+.todoItem button{
+    height: 100%;
+    width: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color:lightgray;
+    color:white;
+}

@@ -1,0 +1,36 @@
+
+.addTodoContainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    height:100px;
+}
+
+.addTodoContainer input {
+    background-color:white;
+    border: 1px gray solid;
+    border-radius: 5px;
+    height:30px;
+    padding-left:5px;
+    width:100%;
+}
+
+.addTodoContainer button {
+    background-color: salmon;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    height:30px;
+    width:100%;
+    font-size: large;
+    margin:auto;
+}
+
+.item-80 {
+    flex: 8;
+}
+
+.item-20 {
+    flex: 1;
+}
