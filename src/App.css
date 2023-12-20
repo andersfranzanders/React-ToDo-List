@@ -15,17 +15,16 @@ body {
   width: 500px;
   height: 80vh;/* Adjust the width as needed */
   padding: 30px 50px; /* Add padding to the container if desired */
-  background-color: white;
+  background: rgb(255,255,255);
+/*background: linear-gradient(130deg, rgba(255,255,255,1) 79%, rgba(255,218,204,1) 100%); box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.05);*/
   border-radius: 5px;
-  box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.05);
-
 }
 
 .headline {
-  display: flex;
-  justify-content: center;
-  background-color: lightsalmon;
-  border-radius: 5px;
+display: flex;
+justify-content: center;
+background-color: lightsalmon;
+border-radius: 5px;
 }
 
 .todoBodyContainer{
@@ -33,26 +32,32 @@ body {
 }
 
 .item-1 {
-  flex: 1;
+flex: 1;
 }
 .item-2 {
-  flex: 2;
+flex: 2;
 }
 .item-3 {
-  flex: 3;
+flex: 3;
 }
 .item-4 {
-  flex: 4;
+flex: 4;
 }
 .item-5 {
-  flex: 5;
+flex: 5;
 }
 .item-6 {
-  flex: 6;
+flex: 6;
 }
 .item-7 {
-  flex: 7;
+flex: 7;
 }
 .item-8 {
-  flex: 8;
+flex: 8;
+}
+.item-9 {
+  flex: 9;
+}
+.item-10 {
+  flex: 10;
 }

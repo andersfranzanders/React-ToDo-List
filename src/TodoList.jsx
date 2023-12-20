@@ -1,20 +1,25 @@
 import React from "react";
 import TodoItem from "./TodoItem";
 import './TodoList.css';
-export default function TodoList({todos, updateTodoDone, deleteTodo}) {
+export default function TodoList({todos, updateTodoDone,updateTodoPosition, deleteTodo}) {
 
-    function renderTodoItem(todo) {
-        return (<li key={todo.id}><TodoItem todo={todo} updateTodoDone={updateTodoDone} deleteTodo={deleteTodo}/></li>)
+    function renderTodoItem(todo, pos) {
+        return (<li key={todo.id}><TodoItem todo ={todo}
+                                            pos = {pos}
+                                            updateTodoDone={updateTodoDone}
+                                            updateTodoPosition={updateTodoPosition}
+                                            deleteTodo={deleteTodo}/></li>)
     }
 
     return (
         <div className="listBodyContainer">
             <div>
+
                 <h3> Things to do </h3>
                 <ul>
                     {todos
                         .filter(todo => !todo.done)
-                    .map( todo => renderTodoItem(todo)
+                    .map( (todo,pos ) => renderTodoItem(todo,pos)
                     )}
                 </ul>
             </div>
@@ -24,7 +29,7 @@ export default function TodoList({todos, updateTodoDone, deleteTodo}) {
             <ul>
                 {todos
                     .filter(todo => todo.done)
-                    .map( todo => renderTodoItem(todo)
+                    .map( (todo,pos ) => renderTodoItem(todo,pos)
                     )}
                 </ul>
             </div>
