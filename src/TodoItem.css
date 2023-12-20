@@ -3,14 +3,11 @@
 .todoItem{
     display:flex;
     gap: 20px;
-    justify-content: space-between
+    justify-content: space-between;
 }
 .todoLabel{
     margin-right: auto;
-
 }
-
-
 
 .todoItem button{
     height: 100%;

@@ -1,7 +1,6 @@
 .box {
   height: 100px; /* Adjust the height as needed */
 }
-
 body {
   display: flex;
   justify-content: center;
@@ -31,4 +30,29 @@ body {
 
 .todoBodyContainer{
 
+}
+
+.item-1 {
+  flex: 1;
+}
+.item-2 {
+  flex: 2;
+}
+.item-3 {
+  flex: 3;
+}
+.item-4 {
+  flex: 4;
+}
+.item-5 {
+  flex: 5;
+}
+.item-6 {
+  flex: 6;
+}
+.item-7 {
+  flex: 7;
+}
+.item-8 {
+  flex: 8;
 }
