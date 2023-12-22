@@ -1,0 +1,19 @@
+
+.empty-row{
+    height:50px;
+}
+.row-at-bottom {
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+}
+.row-at-bottom button {
+    background-color: lightsalmon;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    height:30px;
+    width:100%;
+    font-size: large;
+    margin:auto;
+}

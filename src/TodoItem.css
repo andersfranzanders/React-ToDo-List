@@ -1,19 +1,26 @@
 
+input[type="checkbox"]:checked {
+    background-color: salmon;
+}
 
 .todoItem{
     display:flex;
     gap: 10px;
     align-items: center;
 }
-.todoLabel{
 
+.doneLabel {
+    text-decoration: line-through;
 }
 
 .todoItem button{
-
     border-radius: 5px;
     border: none;
     background-color:lightgray;
     color:white;
     width:100%;
+}
+
+.todoItem button:hover {
+    background:gray;
 }

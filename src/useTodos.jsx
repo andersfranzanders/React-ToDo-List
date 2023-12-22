@@ -1,6 +1,6 @@
 // useTodos.js
 
-import { useState, useEffect, useMemo } from 'react';
+import { useState } from 'react';
 
 const useTodos = () => {
 
@@ -58,10 +58,14 @@ const useTodos = () => {
         setTodos(updatedTodos);
     }
 
+    function deleteAllTodos(){
+        setTodos([]);
+    }
 
 
 
-    return { getTodos, addToTodos, updateTodoDone, updateTodoPosition, deleteTodo };
+
+    return { getTodos, addToTodos, updateTodoDone, updateTodoPosition, deleteTodo, deleteAllTodos };
 };
 
 export default useTodos;

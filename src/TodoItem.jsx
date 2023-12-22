@@ -15,14 +15,20 @@ export default function TodoItem( {todo, pos, updateTodoDone,updateTodoPosition,
                 />
             </div>
 
-            <div className="todoLabel item-10">
+            <div className="item-8">
+                <div className = {todo.done ? "doneLabel" : ""}>
                 {todo.cont}
+                </div>
             </div>
             <div className="item-1">
+                <div className="buttonContainer">
+                    <div>
                 <button onClick={() => updateTodoPosition(pos,todo.done, -1)}>↑</button>
-            </div>
-            <div className="item-1">
-                <button onClick={() => updateTodoPosition(pos,todo.done, 1)}>↓</button>
+                    </div>
+                    <div>
+                    <button onClick={() => updateTodoPosition(pos,todo.done, 1)}>↓</button>
+                    </div>
+                </div>
             </div>
             <div className="item-1">
                 <button onClick={() => deleteTodo(todo.id)}>–</button>

@@ -18,3 +18,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.item-1 {
+  flex: 1;
+}
+.item-2 {
+  flex: 2;
+}
+.item-3 {
+  flex: 3;
+}
+.item-4 {
+  flex: 4;
+}
+.item-5 {
+  flex: 5;
+}
+.item-6 {
+  flex: 6;
+}
+.item-7 {
+  flex: 7;
+}
+.item-8 {
+  flex: 8;
+}
+.item-9 {
+  flex: 9;
+}
+.item-10 {
+  flex: 10;
+}

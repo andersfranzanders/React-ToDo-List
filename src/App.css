@@ -5,59 +5,38 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height:100vh;
   margin: 0;
   background-color:rgb(242, 242, 242);
+  color:rgb(40,40,40);
 }
 
 .container {
-
   width: 500px;
-  height: 80vh;/* Adjust the width as needed */
+  min-height: 80vh;
+  margin-top:50px;
   padding: 30px 50px; /* Add padding to the container if desired */
-  background: rgb(255,255,255);
-/*background: linear-gradient(130deg, rgba(255,255,255,1) 79%, rgba(255,218,204,1) 100%); box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.05);*/
+  background: rgb(252,252,252);
   border-radius: 5px;
+  box-shadow: 5px 5px 20px 0px rgb(0,0,0,0.3);
+  position:relative;
 }
 
 .headline {
-display: flex;
-justify-content: center;
-background-color: lightsalmon;
-border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  background: rgb(255,189,162);
+  background: linear-gradient(130deg, rgba(255,189,162,1) 0%, rgba(255,150,107,1) 100%);
+  border-radius: 5px;
 }
 
-.todoBodyContainer{
-
+h1 {
+  letter-spacing: 5px;
+}
+h2 {
+   letter-spacing: 3px;
+}
+h3 {
+  letter-spacing: 2px;
 }
 
-.item-1 {
-flex: 1;
-}
-.item-2 {
-flex: 2;
-}
-.item-3 {
-flex: 3;
-}
-.item-4 {
-flex: 4;
-}
-.item-5 {
-flex: 5;
-}
-.item-6 {
-flex: 6;
-}
-.item-7 {
-flex: 7;
-}
-.item-8 {
-flex: 8;
-}
-.item-9 {
-  flex: 9;
-}
-.item-10 {
-  flex: 10;
-}
+

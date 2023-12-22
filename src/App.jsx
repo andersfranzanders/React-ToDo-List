@@ -5,10 +5,11 @@ import './App.css';
 import AddTodo from "./AddTodo";
 import TodoList from "./TodoList";
 import useTodos from './useTodos';
+import BottomBar from "./BottomBar";
 
 function App() {
 
-    const { getTodos, addToTodos, updateTodoDone,updateTodoPosition, deleteTodo } = useTodos();
+    const { getTodos, addToTodos, updateTodoDone,updateTodoPosition, deleteTodo,deleteAllTodos } = useTodos();
 
     return (
       <div className="container">
@@ -22,6 +23,7 @@ function App() {
                       updateTodoDone={updateTodoDone}
                       updateTodoPosition={updateTodoPosition}
                       deleteTodo={deleteTodo}/>
+            <BottomBar deleteAllTodos={deleteAllTodos}/>
         </div>
       </div>
   );

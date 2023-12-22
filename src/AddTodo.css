@@ -17,7 +17,7 @@
 }
 
 .addTodoContainer button {
-    background-color: salmon;
+    background-color: lightsalmon;
     border: none;
     border-radius: 5px;
     color:white;
@@ -25,5 +25,10 @@
     width:100%;
     font-size: large;
     margin:auto;
+}
+
+
+.addTodoContainer button:hover{
+    background-color: salmon;
 }
 
