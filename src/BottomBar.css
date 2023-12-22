@@ -17,3 +17,7 @@
     font-size: large;
     margin:auto;
 }
+
+.row-at-bottom button:hover{
+    background-color: salmon;
+}

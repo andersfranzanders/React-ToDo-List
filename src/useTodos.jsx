@@ -50,7 +50,7 @@ const useTodos = () => {
             [doneItems[position], doneItems[position + direction]] =
                 [doneItems[position + direction], doneItems[position]];
         }
-        setTodos([...undoneItems,... doneItems]);
+        setTodos([...undoneItems, ...doneItems]);
     }
 
     function deleteTodo (id) {
